@@ -1,0 +1,12 @@
+<model-viewer src="tfor2a.glb" poster="poster.webp" ar ar-modes="webxr scene-viewer quick-look" camera-controls shadow-intensity="8.8" autoplay animation-name="default_Retopo_Retopo.001Action" exposure="1.54" auto-rotate camera-target="0m 0.25m 0m" shadow-softness="0.25" environment-image="aircraft_workshop_01_1k.hdr">
+
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
